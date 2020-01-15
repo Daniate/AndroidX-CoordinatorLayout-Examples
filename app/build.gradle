@@ -33,4 +33,10 @@ dependencies {
     implementation "com.yanzhenjie.recyclerview:x:1.3.2"
     // BRVAH
     implementation "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50"
+    // SmartRefreshLayout
+    def smart_refresh_layout_version = "1.1.0-alpha-16"
+    implementation "com.scwang.smartrefresh:SmartRefreshLayout:$smart_refresh_layout_version"
+    implementation "com.scwang.smartrefresh:SmartRefreshHeader:$smart_refresh_layout_version"
+    // StatusBar
+    implementation "com.github.chenglei1986.statusbar:library:1.1.0"
 }

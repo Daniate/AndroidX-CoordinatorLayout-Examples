@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
             item.setActivityClass(ScrollPinTopActivity.class);
             itemList.add(item);
         }
+        {
+            Item item = new Item();
+            item.setText("滚动悬停 & 下拉时，顶部图片缩放");
+            item.setActivityClass(ScrollScaleActivity.class);
+            itemList.add(item);
+        }
 
         itemsAdapter = new ItemsAdapter(itemList);
         recycler_view.setAdapter(itemsAdapter);
